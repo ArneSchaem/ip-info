@@ -5,32 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d0784bc-8f59-40ac-87f0-0b12f27add40" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/nginx/ip-info.de" beforeDir="false" afterPath="$PROJECT_DIR$/ip-info2/config/nginx/ip-info.de" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_components/banner.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_components/cards/browsercard.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_components/cards/ipv4card.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_components/cards/ipv6card.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_components/cards/useragentcard.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_components/container.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_components/footer.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_components/header.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_components/hero.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +47,8 @@
       <recent name="$PROJECT_DIR$/src/app/_components/cards" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
@@ -91,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1734043036854</updated>
-      <workItem from="1734043038030" duration="32040000" />
+      <workItem from="1734043038030" duration="32178000" />
     </task>
     <servers />
   </component>
