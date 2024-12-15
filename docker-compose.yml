@@ -4,8 +4,8 @@ services:
     env_file:
       - .env
     build:
-      context: .
-      dockerfile: Dockerfile
+      context: ip-info2
+      dockerfile: ip-info2/Dockerfile
     container_name: "${DOCKER_CONTAINER_NAME}"
     ports:
       - "${PORT}:${PORT}"

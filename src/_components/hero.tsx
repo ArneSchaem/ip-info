@@ -1,8 +1,8 @@
 import React from "react";
-import Ipv4Card from "@/app/_components/cards/ipv4card";
-import Ipv6Card from "@/app/_components/cards/ipv6card";
-import UserAgentCard from "@/app/_components/cards/useragentcard";
-import BrowserCard from "@/app/_components/cards/browsercard";
+import Ipv4Card from "@/_components/cards/ipv4card";
+import Ipv6Card from "@/_components/cards/ipv6card";
+import UserAgentCard from "@/_components/cards/useragentcard";
+import BrowserCard from "@/_components/cards/browsercard";
 
 export default function Hero() {
   return (

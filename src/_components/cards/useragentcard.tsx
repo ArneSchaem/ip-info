@@ -1,9 +1,13 @@
 "use client";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 export default function UserAgentCard() {
-  const userAgent = navigator.userAgent;
+  const [userAgent, setUserAgent] = useState("Loading...");
+
+  useEffect(() => {
+    setUserAgent(navigator.userAgent);
+  }, []);
 
   return (
     <div className="flex flex-col bg-gray-200 justify-center items-center p-4 rounded-lg w-full">
