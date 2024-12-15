@@ -1,7 +1,11 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import requestIp from "request-ip";
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
-  const clientIp = requestIp.getClientIp(req);
-  res.status(200).json({ ip: clientIp });
+  const ip =
+    req.headers["cf-connecting-ip"] ||
+    req.headers["x-real-ip"] ||
+    req.headers["x-forwarded-for"]?.toString().split(",")[0] || // Proxy
+    req.socket.remoteAddress;
+
+  res.status(200).json({ ip: ip || "Keine IP gefunden" });
 }
