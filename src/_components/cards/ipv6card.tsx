@@ -12,8 +12,10 @@ const Ipv6Card = () => {
   }, []);
 
   return (
-    <div className="flex flex-col bg-gray-200 justify-center items-center p-4 rounded-lg">
-      <h1 className="text-xl font-bold">IPv6</h1>
+    <div className="flex flex-col bg-gray-200 justify-center items-center p-4 break-all rounded-lg">
+      <h1 className="flex text-xl md:text-2xl font-bold tracking-tighter text-black leading-tight mb-2">
+        IPv6
+      </h1>
       <h2 className="text-gray-500">{ip}</h2>
     </div>
   );

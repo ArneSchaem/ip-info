@@ -14,10 +14,9 @@ export default function Header() {
               className="flex items-center justify-center bg-blue-50 border border-blue-200 rounded-2xl p-6"
             >
               <p className="text-sm sm:text-base text-gray-700 text-center leading-relaxed">
-                Auf dieser Website werden keine Daten gespeichert. Ihre
-                Privatsphäre bleibt zu jeder Zeit vollständig geschützt. Diese
-                Website entspricht den Anforderungen der
-                Datenschutz-Grundverordnung (DSGVO).
+                No data is stored on this website. Your privacy remains fully
+                protected at all times. This website complies with the
+                requirements of the General Data Protection Regulation (GDPR).
               </p>
             </div>
           </div>

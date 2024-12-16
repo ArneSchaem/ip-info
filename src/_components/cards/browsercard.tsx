@@ -18,11 +18,11 @@ export default function BrowserCard() {
   }, []);
 
   return (
-    <div className="flex flex-col bg-gray-200 justify-center items-center p-4 rounded-lg w-full">
+    <div className="flex flex-col bg-gray-200 justify-center items-center p-4 break-all rounded-lg">
       <h1 className="flex text-xl md:text-2xl font-bold tracking-tighter text-black leading-tight mb-2">
         Browser
       </h1>
-      <h2 className="text-gray-500 text-center text-xs md:text-base">
+      <h2 className="text-gray-500 text-center text-base">
         {`${browserInfo.name} ${browserInfo.version}`}
       </h2>
     </div>

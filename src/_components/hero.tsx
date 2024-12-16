@@ -3,6 +3,7 @@ import Ipv4Card from "@/_components/cards/ipv4card";
 import Ipv6Card from "@/_components/cards/ipv6card";
 import UserAgentCard from "@/_components/cards/useragentcard";
 import BrowserCard from "@/_components/cards/browsercard";
+import LocationCard from "@/_components/cards/locationcard";
 
 export default function Hero() {
   return (
@@ -11,6 +12,7 @@ export default function Hero() {
       <Ipv6Card />
       <BrowserCard />
       <UserAgentCard />
+      <LocationCard />
     </section>
   );
 }
