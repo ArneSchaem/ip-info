@@ -1,12 +1,22 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
-export default function Ipv6card() {
+const Ipv6Card = () => {
+  const [ip, setIp] = useState("");
+
+  useEffect(() => {
+    fetch("/api/get-ip")
+      .then((res) => res.json())
+      .then((data) => {
+        setIp(data.ip?.includes(":") ? data.ip : "Not available");
+      });
+  }, []);
+
   return (
-    <div className="flex flex-col bg-gray-200 justify-center items-center p-6 rounded-lg w-full">
-      <h1 className="flex text-xl md:text-2xl font-bold tracking-tighter text-black leading-tight mb-2">
-        IPv6
-      </h1>
-      <h2 className="text-gray-500 text-center text-xs md:text-base">Test</h2>
+    <div className="flex flex-col bg-gray-200 justify-center items-center p-4 rounded-lg">
+      <h1 className="text-xl font-bold">IPv6</h1>
+      <h2 className="text-gray-500">{ip}</h2>
     </div>
   );
-}
+};
+
+export default Ipv6Card;

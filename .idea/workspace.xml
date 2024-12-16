@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d0784bc-8f59-40ac-87f0-0b12f27add40" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/api/get-ip.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_components/cards/ipv4card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/_components/cards/ipv4card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/api/get-ip.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_components/cards/ipv6card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/_components/cards/ipv6card.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +17,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -74,5 +76,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
