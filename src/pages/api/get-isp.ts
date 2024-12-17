@@ -10,6 +10,6 @@ export default async function handler(
   const geo = await Reader.open("data/GeoLite2-ASN.mmdb");
   const isp = geo.asn(clientIp || "");
   res.status(200).json({
-    isp: isp.autonomousSystemOrganization,
+    provider: isp.autonomousSystemOrganization,
   });
 }
