@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d0784bc-8f59-40ac-87f0-0b12f27add40" name="Changes" comment="location" />
+    <list default="true" id="4d0784bc-8f59-40ac-87f0-0b12f27add40" name="Changes" comment="v0.2.0">
+      <change afterPath="$PROJECT_DIR$/src/_components/cards/ispcard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/api/get-isp.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_components/hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/_components/hero.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,6 +79,15 @@
       <updated>1734043036854</updated>
       <workItem from="1734043038030" duration="36432000" />
     </task>
+    <task id="LOCAL-00001" summary="location">
+      <option name="closed" value="true" />
+      <created>1734392159044</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734392159044</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,7 +123,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHELVE_DETAILS_PREVIEW_SHOWN" value="true" />
+    <MESSAGE value="v0.1.9&#10;&#10;detect IP version" />
     <MESSAGE value="location" />
-    <option name="LAST_COMMIT_MESSAGE" value="location" />
+    <MESSAGE value="v0.2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.2.0" />
   </component>
 </project>
