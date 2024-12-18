@@ -16,7 +16,7 @@ const Ipv6Card = () => {
       <h1 className="flex text-xl md:text-2xl font-bold tracking-tighter text-gray-100 leading-tight">
         IPv6
       </h1>
-      <h2 className="text-gray-400">{ip}</h2>
+      <h2 className="text-gray-400 break-all">{ip}</h2>
     </div>
   );
 };
