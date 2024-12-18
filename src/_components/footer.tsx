@@ -5,14 +5,12 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-neutral-50 border-t border-neutral-200 dark:bg-slate-100">
+    <footer className="relative border-t border-white/[0.06]">
       <Container>
-        <div className="py-8 lg:py-12">
-          <div className="mt-8 pt-8 border-t border-neutral-200">
-            <p className="text-center text-sm text-gray-900">
-              © {currentYear} IP INFO. All rights reserved.
-            </p>
-          </div>
+        <div className="py-4 lg:py-6">
+          <p className="text-center text-sm text-gray-400">
+            © {currentYear} IP INFO. All rights reserved.
+          </p>
         </div>
       </Container>
     </footer>

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 export default function BrowserCard() {
   const [browserInfo, setBrowserInfo] = useState({
@@ -18,11 +18,11 @@ export default function BrowserCard() {
   }, []);
 
   return (
-    <div className="flex flex-col bg-gray-200 justify-center items-center p-4 break-all rounded-lg">
-      <h1 className="flex text-xl md:text-2xl font-bold tracking-tighter text-black leading-tight mb-2">
+    <div className="relative bg-[#191919] rounded-3xl flex-1 p-8  flex flex-col gap-4 w-full ">
+      <h1 className="flex text-xl md:text-2xl font-bold tracking-tighter text-gray-100 leading-tight">
         Browser
       </h1>
-      <h2 className="text-gray-500 text-center text-base">
+      <h2 className="text-gray-400">
         {`${browserInfo.name} ${browserInfo.version}`}
       </h2>
     </div>

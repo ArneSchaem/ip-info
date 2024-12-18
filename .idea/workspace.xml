@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d0784bc-8f59-40ac-87f0-0b12f27add40" name="Changes" comment="v0.2.0" />
+    <list default="true" id="4d0784bc-8f59-40ac-87f0-0b12f27add40" name="Changes" comment="v0.2.0">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_components/banner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/_components/banner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_components/cards/browsercard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/_components/cards/browsercard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_components/cards/ipv4card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/_components/cards/ipv4card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_components/cards/ipv6card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/_components/cards/ipv6card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_components/cards/ispcard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/_components/cards/ispcard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_components/cards/locationcard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/_components/cards/locationcard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_components/cards/useragentcard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/_components/cards/useragentcard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_components/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/_components/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/_components/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,16 +138,5 @@
     <MESSAGE value="location" />
     <MESSAGE value="v0.2.0" />
     <option name="LAST_COMMIT_MESSAGE" value="v0.2.0" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/_components/cards/ipv4card.tsx</url>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
