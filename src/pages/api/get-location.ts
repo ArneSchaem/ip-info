@@ -7,7 +7,7 @@ export default async function handler(
   res: NextApiResponse,
 ) {
   const clientIp = requestIp.getClientIp(req);
-  const geo = await Reader.open("data/GeoLite2-City.mmdb");
+  const geo = await Reader.open("data/GeoLite2-City.mm db");
   const loc = geo.city(clientIp || "");
   res.status(200).json({
     ip: clientIp,
