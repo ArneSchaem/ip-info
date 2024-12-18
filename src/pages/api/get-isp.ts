@@ -7,7 +7,7 @@ export default async function handler(
   res: NextApiResponse,
 ) {
   const clientIp = requestIp.getClientIp(req);
-  const geo = await Reader.open("data/GeoLite2-ASN.mm db");
+  const geo = await Reader.open("data/GeoLite2-ASN.mmdb");
   const isp = geo.asn(clientIp || "");
   res.status(200).json({
     provider: isp.autonomousSystemOrganization,
