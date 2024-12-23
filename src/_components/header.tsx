@@ -3,7 +3,7 @@ import React from "react";
 export default function Header() {
   return (
     <header className="w-full py-8 md:py-12">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto">
         <section className="flex flex-col items-center justify-center space-y-8">
           <h1 className="text-4xl sm:text-6xl lg:text-8xl w-full font-bold tracking-tighter text-center bg-gradient-to-b from-white to-[#C6E8F3] bg-clip-text text-transparent">
             IP INFO
